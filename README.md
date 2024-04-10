@@ -9,3 +9,5 @@ please find the data at this [link](https://drive.google.com/drive/folders/1Ij_B
 ### Content
 - Neural_network_with_team_stats.ipynb: The NN model code with PCA and Grid Search
 - NN_with_team.ipynb: raw data cleaning with the addition of pro team stats
+### More
+the pro team stats is retrieved from [this website](https://gol.gg/teams/list/season-S8/split-ALL/tournament-ALL/)
