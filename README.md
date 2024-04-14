@@ -46,9 +46,19 @@ Our website, [ChampionEdge](https://championedge.streamlit.app/), enhances gamep
 - Input the champions in your team (5) and your opponent's team (5).
 - The site uses a Random Forest model to predict the likely winner and the win probability percentage.
 
-🛡️ **Champion Recommendation:**
+🛡️ **Champion Recommendation**
 - Enter the four champions of your team and the five champions of the opposing team.
 - The system suggests a list of five optimal champions to round out your team composition, maximizing your chances of victory.
+
+## Team Pangolin
+
+- Kian Bagherlee
+- Poojitha Balamurugan
+- Jaxon Yue
+- Yabei Zeng
+
+We're from Duke - MIDS Program, Class of 2025.
+
 
 
 
