@@ -13,6 +13,11 @@ League of Legends pits two teams of five players against each other, where each 
 ## What is the Goal for This Project?
 The main objective behind this project is to provide players with a competitive edge through a tool that offers the ability to strategically plan team compositions with the highest chance of winning. By leveraging AI, we aim to enhance gameplay strategy and overall success for a team in League of Legends matches.
 
+## Repository Structure
+
+![image](https://github.com/Ninsta22/champions-edge/assets/142264378/fd75d005-4e1c-4118-b76a-f7c1033cf6ad)
+                  
+
 ## Dataset Overview
 
 - Our dataset is aggregated and released by Tim Sevenhuysen of OraclesElixir.com.
@@ -49,6 +54,36 @@ Our website, [ChampionEdge](https://championedge.streamlit.app/), enhances gamep
 🛡️ **Champion Recommendation**
 - Enter the four champions of your team and the five champions of the opposing team.
 - The system suggests a list of five optimal champions to round out your team composition, maximizing your chances of victory.
+
+## Installation Steps
+
+Before you begin, make sure you have Python and Jupyter Notebook installed.
+
+To set up your environment to run the model, follow these steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone (https://github.com/Ninsta22/champions-edge.git)
+   cd champions-edge
+
+2. **Install Required Libraries:**
+   Use the provided `requirements.txt` file to install all necessary Python libraries. Open a terminal in the project directory and run the following command:
+
+   ```bash
+   pip install -r requirements.txt
+
+3. **Launch Jupyter Notebook:**
+   Start Jupyter Notebook by running the following command in your project's root directory:
+   ```bash
+   jupyter notebook
+
+4. **Open the Notebook:**
+   Navigate to the `modeling/` directory in the Jupyter dashboard and open the notebook named `random_forest_model_fitting.ipynb`.
+
+5. **Execute the Notebook:**
+   Run all cells in the notebook sequentially. These cells will load the data from `the_real_final_df.csv`, fit the model, and display the results. Ensure that the `data/` folder 
+   containing the dataset is correctly placed in the project's root directory.
+
 
 ## Team Pangolin
 
